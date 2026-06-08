@@ -10,10 +10,6 @@ on:
 jobs:
   validate-and-package:
     runs-on: ubuntu-latest
-
-    services:
-      
-
     steps:
      
       - name: Checkout Source Code
