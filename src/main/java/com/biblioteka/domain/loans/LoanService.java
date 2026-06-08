@@ -61,7 +61,7 @@ public class LoanService {
         Member member = memberRepository.findById(memberId)
                 .orElseThrow(() -> new RuntimeException("Member not found"));
 
-        if (loan.getMember().getId() != member.getId()) {
+        if (!loan.getMember().getId().equals(member.getId())) {
             throw new RuntimeException("This loan does not belong to the user");
         }
 

@@ -55,7 +55,7 @@ public class Member {
         this.name = name;
     }
 
-    public String member_code() {
+    public String getMemberCode() {
         return memberCode;
     }
 
