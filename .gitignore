@@ -1,0 +1,12 @@
+# Ignore local secret configurations
+.env
+
+# Ignore build artifacts
+target/
+*.class
+
+# Ignore IDE settings
+.idea/
+*.iml
+.settings/
+.project
